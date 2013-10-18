@@ -1,0 +1,10 @@
+name = Hook JS
+description = Implementation of Hook.js, (pull to reload)
+core = 7.x
+package = Custom
+version = 7.x-1.0
+
+
+scripts[] = js/hook.min.js
+scripts[] = js/hook.init.js
+stylesheets[all][] = css/hook.css

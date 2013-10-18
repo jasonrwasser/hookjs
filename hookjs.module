@@ -1,0 +1,9 @@
+<?php
+
+
+function hookjs_page_alter(&$page) {
+  $page['page_top'] = array(
+    '#weight' => -10,
+    '#markup' => '<div class="hook" id="hook"><div class="hook-loader"><div class="hook-spinner"></div></div></div>'
+  );
+}
